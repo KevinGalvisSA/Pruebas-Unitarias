@@ -1,8 +1,26 @@
 {
+  "name": "pruebas-unitarias",
+  "version": "1.0.0",
+  "description": "Sistema de control para la gestión de un teleférico, incluyendo el movimiento de cabinas y control de acceso.",
+  "main": "src/index.js",
+  "type": "commonjs", 
   "scripts": {
+    "start": "node src/index.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "teleferico",
+    "control",
+    "sistema",
+    "nodejs",
+    "jest"
+  ],
+  "author": "Kevin Santiago Galvis Arias",
+  "license": "ISC",
+  "dependencies": {
+
   },
   "devDependencies": {
     "jest": "^29.7.0"
